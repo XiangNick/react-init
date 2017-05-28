@@ -1,15 +1,15 @@
 // 项目入口文件
 import React,{Component} from 'react'
 import ReactDOM from 'react-dom'
+import Hello from '../components/Hello.js'
 
-const obj={
-    age:999,
-    prop1:'dfd',
-    prop2:'fdfdfd'
+let msg={
+    name:"XiangNick",
+    age:21
 }
 
 
 ReactDOM.render(
-    <h1>Hello React!</h1>,
+   <Hello {...msg}/>,
     document.getElementById('app')
 )
