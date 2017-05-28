@@ -31,7 +31,7 @@ module.exports = {
     },
     // 启用的规则及各自的错误级别
     "rules" : {
-        // 禁止用console
+        // 禁止用console  0为不提示(off)、1为警告(warn)、2为错误抛出(error)
         "no-console":0,
         // 禁止用分号
         "semi":[2,'never'],
